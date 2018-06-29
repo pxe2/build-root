@@ -4,9 +4,9 @@
 install
 text
 url --url=http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/x86_64/os 
-#--proxy=http://6885fee86004:8000
+#--proxy=http://5b8ec83886b4.pouliot.net:8000
 # ssl proxy for install
-#url --url=http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/x86_64/os --proxy=https://6885fee86004:8000 --noverifyssl
+#url --url=http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/x86_64/os --proxy=https://5b8ec83886b4.pouliot.net:8000 --noverifyssl
 lang en_US.UTF-8
 keyboard us
 
