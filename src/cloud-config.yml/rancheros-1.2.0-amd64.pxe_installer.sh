@@ -16,7 +16,7 @@ sudo hostnamectl set-hostname $NEWHOSTNAME
 # Download cloud-config
 
 
-wget http://698fd322d9c1.pouliot.net/rancheros/cloud-config.yml/rancheros-1.2.0-amd64.cloud-config.yml
+wget http://f8ad7fe0d39f.pouliot.net/rancheros/cloud-config.yml/rancheros-1.2.0-amd64.cloud-config.yml
 sed -i "/hostname: rancheros/c\hostname: $NEWHOSTNAME" ./rancheros-1.2.0-amd64.cloud-config.yml
 
 #sed -i "/ discovery: \"https://discovery.etcd.io/<token>\"/c\ $DISCOVERY" ./rancheros-1.2.0-amd64.cloud-config.yml

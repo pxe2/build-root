@@ -64,7 +64,7 @@ gem install r10k hiera-eyaml
 
 # Set hostname of puppetmaster
 # This is currently disabled as the puppetmaster is no longer on the quartermaster server
-# echo "698fd322d9c1.pouliot.net 698fd322d9c1.pouliot.net 698fd322d9c1 puppet" >> /etc/hosts
+# echo "f8ad7fe0d39f.pouliot.net f8ad7fe0d39f.pouliot.net f8ad7fe0d39f puppet" >> /etc/hosts
 
 #/sbin/ifconfig | grep "eth" | tr -s " " | cut -d " " -f5 | /usr/bin/perl -pi -e "s/://g;" > /etc/hostname
 #
@@ -104,7 +104,7 @@ else
 fi
 
 echo "### Install Secondboot script to /root ###"
-wget http://698fd322d9c1.pouliot.net/bin/secondboot -O /root/secondboot
+wget http://f8ad7fe0d39f.pouliot.net/bin/secondboot -O /root/secondboot
 chmod +x /root/secondboot
 
 use_upstart=`ps -p 1 -o command | awk '{print $1}'|grep -c init`

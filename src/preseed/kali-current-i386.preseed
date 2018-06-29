@@ -19,7 +19,7 @@ d-i keyboard-configuration/variant select English (US)
 
 d-i mirror/http/hostname string http.kali.org
 d-i mirror/http/directory string /kali
-d-i mirror/http/proxy string http://698fd322d9c1.pouliot.net:3128/
+d-i mirror/http/proxy string http://f8ad7fe0d39f.pouliot.net:3128/
 # Partitioning
 d-i partman-auto/choose_recipe select atomic
 d-i partman-auto/purge_lvm_from_device boolean true
@@ -101,5 +101,5 @@ d-i debian-installer/exit/poweroff boolean false
 
 byobu byobu/launch-by-default boolean true
 # Example 
-#d-i preseed/late_command string chroot /target sh -c "/usr/bin/curl -o /tmp/postinstall http://698fd322d9c1.pouliot.net/bin/postinstall && /bin/sh -x /tmp/postinstall"
-d-i preseed/late_command string chroot /target sh -c "/usr/bin/wget http://698fd322d9c1.pouliot.net/bin/postinstall -O /tmp/postinstall && /bin/sh -x /tmp/postinstall"
+#d-i preseed/late_command string chroot /target sh -c "/usr/bin/curl -o /tmp/postinstall http://f8ad7fe0d39f.pouliot.net/bin/postinstall && /bin/sh -x /tmp/postinstall"
+d-i preseed/late_command string chroot /target sh -c "/usr/bin/wget http://f8ad7fe0d39f.pouliot.net/bin/postinstall -O /tmp/postinstall && /bin/sh -x /tmp/postinstall"

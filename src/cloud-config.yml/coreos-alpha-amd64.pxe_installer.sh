@@ -15,7 +15,7 @@ sudo hostnamectl set-hostname $NEWHOSTNAME
 
 # Download cloud-config
 
-curl -O http://698fd322d9c1.pouliot.net/coreos/cloud-config.yml/coreos-alpha-amd64.cloud-config.yml
+curl -O http://f8ad7fe0d39f.pouliot.net/coreos/cloud-config.yml/coreos-alpha-amd64.cloud-config.yml
 sed -i "/hostname: coreos/c\hostname: $NEWHOSTNAME" ./coreos-alpha-amd64.cloud-config.yml
 
 
