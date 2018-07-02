@@ -2,7 +2,7 @@
 LOGFILE='/root/secondboot.log'
 exec >> $LOGFILE 2>&1
 
-QUARTERMASTER=dd4ba43a4107.pouliot.net
+QUARTERMASTER=72f1b3306c18.pouliot.net
 
 # This script will run the second time the system boots. Even
 # though we've told it to run after networking is enabled,
