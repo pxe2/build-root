@@ -4,9 +4,9 @@
 install
 text
 url --url=http://vault.centos.org/4.5/os/x86_64/ 
-#--proxy=http://dbf8736276ac.pouliot.net:8000
+#--proxy=http://d794f5e94754.pouliot.net:8000
 # ssl proxy for install
-#url --url=http://vault.centos.org/4.5/os/x86_64/ --proxy=https://dbf8736276ac.pouliot.net:8000 --noverifyssl
+#url --url=http://vault.centos.org/4.5/os/x86_64/ --proxy=https://d794f5e94754.pouliot.net:8000 --noverifyssl
 lang en_US.UTF-8
 keyboard us
 

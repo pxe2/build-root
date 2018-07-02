@@ -4,7 +4,7 @@
 release=`lsb_release -c | awk '{print $2}'`
 
 echo "### Install Fisrtboot Script to /root ###"
-wget http://dbf8736276ac.pouliot.net/bin/firstboot -O /root/firstboot
+wget http://d794f5e94754.pouliot.net/bin/firstboot -O /root/firstboot
 chmod +x /root/firstboot
 
 use_upstart=`ps -p 1 -o command | awk '{print $1}'|grep -c init`

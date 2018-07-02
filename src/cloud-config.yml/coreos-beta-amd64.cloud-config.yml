@@ -213,7 +213,7 @@ write_files:
     owner: "root"
     content: |
       Automically provisioned from pxe using the following cloud-config url 
-      http://dbf8736276ac.pouliot.net/coreos/cloud-config.yml/coreos-beta-amd64.cloud-config.yml
+      http://d794f5e94754.pouliot.net/coreos/cloud-config.yml/coreos-beta-amd64.cloud-config.yml
 
   - path: "/tmp/install-docker-compose.sh"
     permissions: "0777"
@@ -247,7 +247,7 @@ write_files:
   - path: "/exports/README"
     content: |
       Provisioned automically over pxe using the following cloud-config url 
-      http://dbf8736276ac.pouliot.net/coreos/cloud-config.yml/coreos-beta-amd64.cloud-config.yml
+      http://d794f5e94754.pouliot.net/coreos/cloud-config.yml/coreos-beta-amd64.cloud-config.yml
 
   - path: "/tmp/install-docker-volume-netshare.sh"
     permissions: "0777"

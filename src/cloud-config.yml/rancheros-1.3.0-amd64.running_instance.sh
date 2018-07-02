@@ -14,7 +14,7 @@ sudo hostnamectl set-hostname $NEWHOSTNAME
 # Download cloud-config
 
 
-wget http://dbf8736276ac.pouliot.net/rancheros/cloud-config.yml/rancheros-1.3.0-amd64.cloud-config.yml
+wget http://d794f5e94754.pouliot.net/rancheros/cloud-config.yml/rancheros-1.3.0-amd64.cloud-config.yml
 sed -i "/hostname: rancheros/c\hostname: $NEWHOSTNAME" ./rancheros-1.3.0-amd64.cloud-config.yml
 sudo ros config validate -i ./rancheros-1.3.0-amd64.cloud-config.yml
 sudo ros config merge -i ./rancheros-1.3.0-amd64.cloud-config.yml
