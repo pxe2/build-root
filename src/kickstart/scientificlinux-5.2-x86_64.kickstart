@@ -4,9 +4,9 @@
 install
 text
 url --url=http://ftp.scientificlinux.org/linux/scientific/5.2/x86_64/os 
-#--proxy=http://fd85d854e48d.pouliot.net:8000
+#--proxy=http://dd4ba43a4107.pouliot.net:8000
 # ssl proxy for install
-#url --url=http://ftp.scientificlinux.org/linux/scientific/5.2/x86_64/os --proxy=https://fd85d854e48d.pouliot.net:8000 --noverifyssl
+#url --url=http://ftp.scientificlinux.org/linux/scientific/5.2/x86_64/os --proxy=https://dd4ba43a4107.pouliot.net:8000 --noverifyssl
 lang en_US.UTF-8
 keyboard us
 
