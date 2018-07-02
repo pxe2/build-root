@@ -6,3 +6,14 @@
 /build
 /ca.crt
 /*.crt
+/bin 
+/CONTRIBUTING.md 
+/docs
+/ipxe
+/README.md 
+/script 
+/src
+
+
+
+
