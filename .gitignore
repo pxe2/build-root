@@ -4,3 +4,5 @@
 /script/privkey-pxe.to.pem
 /ipxe_build
 /build
+/ca.crt
+/*.crt
